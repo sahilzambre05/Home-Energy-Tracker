@@ -1,10 +1,11 @@
 package com.hometracker.user_service.dto;
 
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.Getter;
+import lombok.*;
 
+
+@NoArgsConstructor
+@AllArgsConstructor
 @Data
 @Builder
 public class UserDto {

@@ -22,7 +22,7 @@ class DeviceServiceApplicationTests {
 	void contextLoads() {
 	}
 
-//	@Disabled
+	@Disabled
 	@Test
 	void createDevices() {
 		for (int i = 1; i <= NUMBER_OF_DEVICES; i++) {

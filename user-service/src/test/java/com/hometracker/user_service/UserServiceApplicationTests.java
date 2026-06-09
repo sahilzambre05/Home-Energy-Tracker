@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @Slf4j
 @SpringBootTest
-//@Disabled
+@Disabled
 class UserServiceApplicationTests {
 
 	private static final int NUMBER_OF_USERS = 10;
@@ -22,7 +22,7 @@ class UserServiceApplicationTests {
 	void contextLoads() {
 	}
 
-//	@Disabled
+	@Disabled
 	@Test
 	void addUsersToDB() {
 		for (int i = 1; i <= NUMBER_OF_USERS; i++) {

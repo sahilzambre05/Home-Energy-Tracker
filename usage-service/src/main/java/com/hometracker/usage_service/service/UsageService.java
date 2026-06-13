@@ -1,5 +1,6 @@
 package com.hometracker.usage_service.service;
 
+
 import com.influxdb.client.InfluxDBClient;
 import com.influxdb.client.QueryApi;
 import com.influxdb.client.domain.WritePrecision;
